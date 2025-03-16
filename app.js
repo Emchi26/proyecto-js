@@ -29,8 +29,8 @@ function visualizarAmigo() {
 }
 
 function sortearAmigo() {
-    if (!nombresAmigos.length) {
-        alert("Ingresa al menos dos amigos");
+    if (nombresAmigos.length < 3) {
+        alert("Ingresa al menos tres amigos");
         return;
     }
 

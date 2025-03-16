@@ -17,7 +17,7 @@ Si no se inserta ningún nombre en el programa, les aparecerá esta alerta:
 ![image](https://github.com/user-attachments/assets/986886eb-ae38-4104-8192-9e626473d119)
 
 
-En este caso, el amigo sorteado fue Natalia:
+En este caso, el amigo sorteado fue Natalia.
 
 Sugerencias:
 Se tienen que insertar al menos 3 nombres para que no salga esta alerta:

@@ -28,3 +28,18 @@ function visualizarAmigo() {
     }
 }
 
+function sortearAmigo() {
+    if (!nombresAmigos.length) {
+        alert("Ingresa al menos dos amigos");
+        return;
+    }
+
+    let amigoSorteado = nombresAmigos[Math.floor(Math.random() * nombresAmigos.length)];
+    let resultado = document.getElementById("resultado");
+    resultado.innerHTML = "El amigo sorteado es: " + amigoSorteado;
+
+    let limpiarLista = document.getElementById("listaAmigos");
+    limpiarLista.innerHTML = "";
+    nombresAmigos = [];
+}
+

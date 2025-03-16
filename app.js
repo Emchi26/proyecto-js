@@ -14,7 +14,17 @@ function agregarAmigo() {
     nombresAmigos.push(nombreAmigo);
     inputAmigo.value = "";
     inputAmigo.focus()
+    visualizarAmigo();
 }
 
-function renderizarAmigos() {}
+function visualizarAmigo() {
+    let listaAmigos = document.getElementById("listaAmigos");
+    listaAmigos.innerHTML = "";
+
+    for (let i = 0; i < nombresAmigos.length; i++) {
+        let item = document.createElement("li");
+        item.textContent = nombresAmigos[i];
+        listaAmigos.appendChild(item);
+    }
+}
 
